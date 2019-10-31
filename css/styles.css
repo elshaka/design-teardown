@@ -1,4 +1,4 @@
-body *{
+body, nav, section, div, article, footer, p, li{
   border: 1px solid #999;
 }
 
@@ -7,6 +7,9 @@ h1, h2, .navbar {
 }
 
 h1 {
+  position: absolute;
+  top: 50px;
+  margin: 0 auto;
   font-size: 30px;
 }
 
@@ -40,13 +43,6 @@ p, ul, h6 {
   flex-wrap: wrap;
   position: relative;
   justify-content: center;
-}
-
-.latest-articles h1 {
-  position: absolute;
-  top: 50px;
-  margin: 0 auto;
-  font-size: 30px;
 }
 
 .latest-articles span {
