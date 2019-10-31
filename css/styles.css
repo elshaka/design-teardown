@@ -1,5 +1,22 @@
-body * {
-  border: 1px solid #aaa;
+body *{
+  border: 1px solid #999;
+}
+
+h1, h2, .navbar {
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p, ul {
+  font-size: 20px;
+  line-height: 33px;
 }
 
 .navbar {
@@ -25,14 +42,14 @@ body * {
   justify-content: center;
 }
 
-.latest-articles h1{
+.latest-articles h1 {
   position: absolute;
   top: 50px;
   margin: 0 auto;
   font-size: 30px;
 }
 
-.latest-articles span{
+.latest-articles span {
   position: absolute;
   top: 50px;
   right: 43px;
@@ -57,22 +74,131 @@ body * {
 
 .latest-posts article {
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 50px;
 }
 
-.latest-posts article[class^="post"] {
-  height: 626px;
+.latest-posts .post {
+  height: 500px;
   width: 33.33%;
 }
 
 .sponsored {
   width: 33.33%;
   height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .big-post {
   height: 664px;
   width: 66.66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comingup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 880px;
+}
+
+.comingup button {
+  margin: 50px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.comingup section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.community-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person-of-the-week {
+  height: 350px;
+  width: 100%;
+  padding: 50px;
+}
+
+.person-of-the-week .profile-big {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.community-links .link {
+  box-sizing: border-box;
+  height: 230px;
+  width: 50%;
+  padding: 50px;
+}
+
+.community-links .profile-small {
+  float: left;
+  margin-right: 20px;
+  width: 75px;
+  height: 75px;
+}
+
+.featured-book {
+  display: flex;
+  align-items: center;
+  height: 320px;
+  padding: 50px;
+}
+
+.curated-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.curated-posts .post {
+  box-sizing: border-box;
+  width: 33.33%;
+  height: 510px;
+  padding: 50px;
+}
+
+.newsletter {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66.66%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.footer-bird, .footer-text, .footer-cat {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  height: 300px;
 }
