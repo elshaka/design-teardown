@@ -1,0 +1,19 @@
+body * {
+  border: 1px solid #aaa;
+}
+
+.navbar {
+  height: 170px;
+}
+
+.navbar ul {
+  display: flex;
+  height: 100%;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
