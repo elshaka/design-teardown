@@ -56,6 +56,7 @@ body * {
 }
 
 .latest-posts article {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,15 +64,15 @@ body * {
 
 .latest-posts article[class^="post"] {
   height: 626px;
-  width: 33%;
+  width: 33.33%;
 }
 
 .sponsored {
-  width: 385px;
+  width: 33.33%;
   height: 310px;
 }
 
 .big-post {
   height: 664px;
-  width: 863px;
+  width: 66.66%;
 }
