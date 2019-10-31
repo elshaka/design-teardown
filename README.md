@@ -1,4 +1,4 @@
-# HTML Forms
+Design Teardown
 
 Design Teardown is the fourth project in the Microverse curriculum. It consists of building a greyscale heat map of [Smashing Magazine's home page](https://www.smashingmagazine.com/) indicating wich elements have the greatest weight in the visual hierarchy.
 
