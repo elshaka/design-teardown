@@ -17,3 +17,61 @@ body * {
   align-items: center;
   flex-grow: 1;
 }
+
+.latest-articles {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.latest-articles h1{
+  position: absolute;
+  top: 50px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.latest-articles span{
+  position: absolute;
+  top: 50px;
+  right: 43px;
+  font-size: 30px;
+}
+
+.latest-articles article {
+  box-sizing: border-box;
+  width: 50%;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-posts {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.latest-posts article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-posts article[class^="post"] {
+  height: 626px;
+  width: 33%;
+}
+
+.sponsored {
+  width: 385px;
+  height: 310px;
+}
+
+.big-post {
+  height: 664px;
+  width: 863px;
+}
