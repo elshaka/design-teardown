@@ -52,6 +52,11 @@ a {
   flex-grow: 4;
 }
 
+nav {
+  height: 100%;
+  width: 100%;
+}
+
 .navbar li {
   display: flex;
   justify-content: center;
