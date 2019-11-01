@@ -12,7 +12,7 @@ Basic HTML5, CSS and github was everything we needed in this collaborative proje
 
 ## Our project
 
-Our project can be found in https://github.com/elshaka/design-teardown, and a live view can be found [here](https://raw.githack.com/elshaka/design-teardown/feature-website/index.html).
+Our project can be found in https://github.com/elshaka/design-teardown, and a live view can be found [here](https://raw.githack.com/elshaka/design-teardown/master/index.html).
 
 ## Contributors
 
